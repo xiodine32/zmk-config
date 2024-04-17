@@ -14,7 +14,7 @@
 / {
     behaviors {
         htl: hold_tap_left {
-            #binding-cells=<2>
+            #binding-cells=<2>;
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
@@ -24,7 +24,7 @@
             hold-trigger-on-release;
         };
         htr: hold_tap_right {
-            #binding-cells=<2>
+            #binding-cells=<2>;
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
