@@ -14,7 +14,7 @@
 / {
     behaviors {
         htl: hold_tap_left {
-            compatible = "zmk,behavior-hold-tap"
+            compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <280>;
@@ -25,7 +25,7 @@
             hold-trigger-on-release;
         };
         htr: hold_tap_right {
-            compatible = "zmk,behavior-hold-tap"
+            compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <280>;
