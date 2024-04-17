@@ -8,12 +8,12 @@
 #include "keymap.h"
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
-#define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4
+#define HRML(k1,k2,k3,k4) &htl LSHFT k1  &htl LALT k2   &htl LCTRL k3  &htl LGUI k4
+#define HRMR(k1,k2,k3,k4) &htr RGUI k1   &htr RCTRL k2  &htr RALT k3   &htr RSHFT k4
 
 / {
     behaviors {
-        htl: hold_tap {
+        htl: hold_tap_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -24,7 +24,7 @@
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
         };
-        htr: hold_tap {
+        htr: hold_tap_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
