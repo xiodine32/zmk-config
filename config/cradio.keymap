@@ -24,26 +24,26 @@
         combo_lctrl {
             bindings = <&skq LCTRL>;
             key-positions = <1 2>;
-            layers = <0>;
+            layers = <0 1 2>;
             require-prior-idle-ms = <80>;
         };
         combo_shift {
-            bindings = <&skq RSHIFT>;
+            bindings = <&skq LSHIFT>;
             key-positions = <7 8>;
-            layers = <0>;
-            require-prior-idle-ms = <80>;
+            layers = <0 1 2>;
+            require-prior-idle-ms = <100>;
         };
         combo_alt {
             bindings = <&skq LALT>;
             key-positions = <27 28>;
-            layers = <0>;
-            require-prior-idle-ms = <80>;
+            layers = <0 1 2>;
+            require-prior-idle-ms = <100>;
         };
         combo_cmd {
             bindings = <&skq LCMD>;
             key-positions = <21 22>;
-            layers = <0>;
-            require-prior-idle-ms = <80>;
+            layers = <0 1 2>;
+            require-prior-idle-ms = <100>;
         };
     };
 
