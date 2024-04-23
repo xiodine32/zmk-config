@@ -27,27 +27,27 @@
             bindings = <&kp TAB>;
             key-positions = <1 2>;
             layers = <NORMAL_LAYERS>;
-        }
+        };
         combo_lctrl {
             bindings = <&skq LCTRL>;
             key-positions = <21 22>;
             layers = <NORMAL_LAYERS>;
-        }
+        };
         combo_shift {
             bindings = <&skq RSHIFT>;
             key-positions = <7 8>;
             layers = <NORMAL_LAYERS>;
-        }
+        };
         combo_alt {
             bindings = <&skq LALT>;
             key-positions = <32 33>;
             layers = <NORMAL_LAYERS>;
-        }
+        };
         combo_cmd {
             bindings = <&skq LCMD>;
             key-positions = <30 31>;
             layers = <NORMAL_LAYERS>;
-        }
+        };
     };
 
     behaviors {
