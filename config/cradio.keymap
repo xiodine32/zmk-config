@@ -25,7 +25,7 @@
             bindings = <&skq LCTRL>;
             key-positions = <1 2>;
             layers = <0 1 2>;
-            require-prior-idle-ms = <80>;
+            require-prior-idle-ms = <100>;
         };
         combo_shift {
             bindings = <&skq LSHIFT>;
@@ -55,6 +55,7 @@
             bindings = <&kp>;
             release-after-ms = <1000>;
             quick-release;
+            ignore-modifiers;
         };
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
