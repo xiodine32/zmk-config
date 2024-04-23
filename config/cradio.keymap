@@ -25,7 +25,7 @@
         compatible = "zmk,combos";
         combo_lctrl {
             bindings = <&skq LCTRL>;
-            key-positions = <21 22>;
+            key-positions = <1 2>;
             layers = <NORMAL_LAYERS>;
             require-prior-idle-ms = <80>;
         };
